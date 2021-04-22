@@ -89,8 +89,13 @@
 
 18. [part1b-question18.js](./part1b-question18.js)
 19. The code outputs:
+
     1
+    
     4
+    
     3
+    
     2
+    
     This happens since the lines that output 2 and 3 are attached to timers that tick down before they get outputted, while 1 and 4 are immediately outputted. 2 has the longest timer.
