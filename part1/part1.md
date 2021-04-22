@@ -31,29 +31,50 @@
 
 ## Data Types
 
-12. A. `student.name`
-12. B. `student['Grad Year']`
-12. C. `student.greeting()`
-12. D. `student['Favorite Teacher'].name`
-12. E. `student.courseLoad[0]`
+12.
+    A. `student.name`
+    
+    B. `student['Grad Year']`
+    
+    C. `student.greeting()`
+    
+    D. `student['Favorite Teacher'].name`
+    
+    E. `student.courseLoad[0]`
 
 ## Basic Operators & Type Conversion
 
-13. A. `32`: 2 is converted to string and concatenated to 3 to form '32'
-13. B. `1`: '3' is converted to its numeric value (3) and 2 is subtracted from it to form 1
-13. C. `3`: null is converted to its numeric value (0) and added to 3 to form 3
-13. D. `3null`: null is converted to string and concatenated to 3 to form '3null'
-13. E. `4`: true is converted to its numeric value (1) and added to 3 to form 4
-13. F. `0`: both false and null are converted to their numeric value (0) and added to form 0
-13. G. `3undefined`: undefined is converted to string and concatenated to 3 to form '3undefined'
-13. H. `NaN`: undefined is converted to its numeric value (NaN), which forms NaN
+13.
+    A. `32`: 2 is converted to string and concatenated to 3 to form '32'
+    
+    B. `1`: '3' is converted to its numeric value (3) and 2 is subtracted from it to form 1
+    
+    C. `3`: null is converted to its numeric value (0) and added to 3 to form 3
+    
+    D. `3null`: null is converted to string and concatenated to 3 to form '3null'
+    
+    E. `4`: true is converted to its numeric value (1) and added to 3 to form 4
+    
+    F. `0`: both false and null are converted to their numeric value (0) and added to form 0
+    
+    G. `3undefined`: undefined is converted to string and concatenated to 3 to form '3undefined'
+    
+    H. `NaN`: undefined is converted to its numeric value (NaN), which forms NaN
+    
 
-14. A. `true`: '2' is converted to numeric 2, which is greater than 1
-14. B. `false`: the strings '2' and '12' are compared, the first character '2' is greater than '1' so '2' is greater than '12'
-14. C. `true`: '2' is converted to numeric 2, which is equal to 2
-14. D. `false`: '2' is a different type from 2, so the strict === comparison returns false
-14. E. `false`: true is converted to numeric 1, which is not equal to 2
-14. F. `true`: Boolean(2) is converted to boolean true, which is equal to and same type as true
+14. 
+    A. `true`: '2' is converted to numeric 2, which is greater than 1
+    
+    B. `false`: the strings '2' and '12' are compared, the first character '2' is greater than '1' so '2' is greater than '12'
+    
+    C. `true`: '2' is converted to numeric 2, which is equal to 2
+    
+    D. `false`: '2' is a different type from 2, so the strict === comparison returns false
+    
+    E. `false`: true is converted to numeric 1, which is not equal to 2
+    
+    F. `true`: Boolean(2) is converted to boolean true, which is equal to and same type as true
+    
 15. == compares values and may return true even if they are different types as long as they have the same values when converted, while === returns false if the values compared are of different types
 
 ## Loops
