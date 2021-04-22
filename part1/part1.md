@@ -85,7 +85,7 @@
 
 17. `modifyArray` will return an array containing `[2,4,6]`. `modifyArray` loops through each value in `array` (`[1,2,3]`), calling `doSomething` on each element and pushing that result to `newArr`. In this case, `doSomething` doubles the number inputted, so it ends up doubling each number in the array and pushing it to `newArr`. After each element is doubled and pushed, the array is returned.
 
-## setInterval(), setTimeout(), clearTimeout()
+## `setInterval()`, `setTimeout()`, `clearTimeout()`
 
 18. [part1b-question18.js](./part1b-question18.js)
 19. The code outputs:
